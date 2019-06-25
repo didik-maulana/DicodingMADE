@@ -11,12 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".intent.IntentResultActivity"></activity>
+        <activity android:name=".intent.IntentActivity"/>
+        <activity android:name=".intent.IntentResultActivity" />
         <activity android:name=".intent.IntentDetailObjectActivity" />
         <activity android:name=".intent.IntentDetailDataActivity" />
         <activity android:name=".intent.IntentDetailActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".intent.IntentActivity">
+        <activity android:name=".fragment.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

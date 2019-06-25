@@ -4,55 +4,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="@dimen/activity_margin"
-    tools:context=".intent.IntentResultActivity">
+    tools:context=".fragment.CustomDialogFragment">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/activity_margin"
-        android:text="@string/pilih_nomor_desc"/>
+        android:text="@string/website_programming_favorite" />
 
     <RadioGroup
-        android:id="@+id/rg_numbers"
+        android:id="@+id/rg_options"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <RadioButton
-            android:id="@+id/rb_10"
+            android:id="@+id/rb_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/activity_margin"
-            android:text="@string/_10" />
+            android:text="@string/codingtive_com" />
 
         <RadioButton
-            android:id="@+id/rb_20"
+            android:id="@+id/rb_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/activity_margin"
-            android:text="@string/_20" />
+            android:text="@string/udemy_com" />
 
         <RadioButton
-            android:id="@+id/rb_30"
+            android:id="@+id/rb_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/activity_margin"
-            android:text="@string/_30" />
-
-        <RadioButton
-            android:id="@+id/rb_40"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_margin"
-            android:text="@string/_40" />
+            android:text="@string/dicoding_com" />
 
     </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_margin"
+        android:text="@string/close" />
 
     <Button
         android:id="@+id/btn_choose"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/pilih"/>
+        android:layout_marginBottom="@dimen/activity_margin"
+        android:text="@string/choose" />
 
 </LinearLayout>

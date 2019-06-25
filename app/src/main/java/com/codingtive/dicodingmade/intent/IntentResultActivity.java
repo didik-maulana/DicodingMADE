@@ -14,7 +14,7 @@ public class IntentResultActivity extends AppCompatActivity implements View.OnCl
     Button btnChoose;
     RadioGroup rgNumbers;
 
-    public static String EXTRA_SELECTED_RESULT = "extra_selected_result";
+    public static String EXTRA_SELECTED_VALUE = "extra_selected_value";
     public static int RESULT_CODE = 110;
 
     @Override
@@ -24,6 +24,8 @@ public class IntentResultActivity extends AppCompatActivity implements View.OnCl
 
         btnChoose = findViewById(R.id.btn_choose);
         rgNumbers = findViewById(R.id.rg_numbers);
+
+        btnChoose.setOnClickListener(this);
     }
 
     @Override
@@ -47,7 +49,7 @@ public class IntentResultActivity extends AppCompatActivity implements View.OnCl
                 }
 
                 Intent resultIntent = new Intent();
-                resultIntent.putExtra(EXTRA_SELECTED_RESULT, value);
+                resultIntent.putExtra(EXTRA_SELECTED_VALUE, value);
                 setResult(RESULT_CODE, resultIntent);
                 finish();
             }

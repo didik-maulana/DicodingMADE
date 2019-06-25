@@ -83,7 +83,7 @@ public class IntentActivity extends AppCompatActivity implements View.OnClickLis
 
         if (requestCode == REQUEST_CODE) {
             if (resultCode == IntentResultActivity.RESULT_CODE) {
-                int selectedValue = data.getIntExtra(IntentResultActivity.EXTRA_SELECTED_RESULT, 0);
+                int selectedValue = data != null ? data.getIntExtra(IntentResultActivity.EXTRA_SELECTED_VALUE, 0) : 0;
                 tvIntentResult.setText(String.format("Result : %s", selectedValue));
             }
         }
