@@ -1,38 +1,38 @@
-<resources>
-    <string name="app_name">DicodingMADE</string>
-    <string name="move_activity">Move Activity</string>
-    <string name="intent_detail_desc">This is Intent Detail Activity</string>
-    <string name="move_with_data">Move with data</string>
-    <string name="move_with_object">Move with Object</string>
-    <string name="move_intent_implicit">Move Intent Implicit</string>
-    <string name="pilih_nomor_desc">Pilih nomor dibawah ini :</string>
-    <string name="_10">10</string>
-    <string name="_20">20</string>
-    <string name="_30">30</string>
-    <string name="_40">40</string>
-    <string name="pilih">PILIH</string>
-    <string name="move_with_result">Move with result</string>
-    <string name="result_from_activity">Result from activity</string>
-    <string name="this_is_home_fragment">This is home fragment</string>
-    <string name="move_to_category">MOVE TO CATEGORY</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">DicodingMADE</string>
+    <string name="move_activity" translatable="false">Move Activity</string>
+    <string name="intent_detail_desc" translatable="false">This is Intent Detail Activity</string>
+    <string name="move_with_data" translatable="false">Move with data</string>
+    <string name="move_with_object" translatable="false">Move with Object</string>
+    <string name="move_intent_implicit" translatable="false">Move Intent Implicit</string>
+    <string name="pilih_nomor_desc" translatable="false">Pilih nomor dibawah ini :</string>
+    <string name="_10" translatable="false">10</string>
+    <string name="_20" translatable="false">20</string>
+    <string name="_30" translatable="false">30</string>
+    <string name="_40" translatable="false">40</string>
+    <string name="pilih" translatable="false">PILIH</string>
+    <string name="move_with_result" translatable="false">Move with result</string>
+    <string name="result_from_activity" translatable="false">Result from activity</string>
+    <string name="this_is_home_fragment" translatable="false">This is home fragment</string>
+    <string name="move_to_category" translatable="false">MOVE TO CATEGORY</string>
 
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="this_is_fragment_category">This is fragment category</string>
-    <string name="click_me">Click Me</string>
-    <string name="go_to_intent">GO TO INTENT</string>
-    <string name="show_dialog">SHOW DIALOG</string>
-    <string name="website_programming_favorite">Website programming favorite ?</string>
-    <string name="codingtive_com">Codingtive.com</string>
-    <string name="udemy_com">Udemy.com</string>
-    <string name="dicoding_com">Dicoding.com</string>
-    <string name="close">Close</string>
-    <string name="choose">Choose</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="this_is_fragment_category" translatable="false">This is fragment category</string>
+    <string name="click_me" translatable="false">Click Me</string>
+    <string name="go_to_intent" translatable="false">GO TO INTENT</string>
+    <string name="show_dialog" translatable="false">SHOW DIALOG</string>
+    <string name="website_programming_favorite" translatable="false">Website programming favorite ?</string>
+    <string name="codingtive_com" translatable="false">Codingtive.com</string>
+    <string name="udemy_com" translatable="false">Udemy.com</string>
+    <string name="dicoding_com" translatable="false">Dicoding.com</string>
+    <string name="close" translatable="false">Close</string>
+    <string name="choose" translatable="false">Choose</string>
 
-    <string name="length">Panjang</string>
-    <string name="width">Lebar</string>
-    <string name="height">Tinggi</string>
-    <string name="calculate">Hitung</string>
-    <string name="result">Hasil</string>
+    <string name="length" translatable="false">Panjang</string>
+    <string name="width" translatable="false">Lebar</string>
+    <string name="height" translatable="false">Tinggi</string>
+    <string name="calculate" translatable="false">Hitung</string>
+    <string name="result" translatable="false">Hasil</string>
 
     <!-- List View -->
     <string-array name="data_name">
@@ -71,4 +71,65 @@
         <item>@drawable/supomo</item>
         <item>@drawable/tan_malaka</item>
     </array>
+
+    <!--simple view group-->
+    <string name="content_text" translatable="false">Google officially announced its much-anticipated Pixel phones; the Pixel and Pixel XL, on October 4. We attended Google’s London UK event, mirroring the main one taking place in San Francisco, US, where the firm unwrapped the new Android 7.1 Nougat devices which will apparently usurp Google’s long-standing Nexus series.</string>
+    <string name="content_specs_display" translatable="false">5.0 inches\n
+    FHD AMOLED at 441ppi\n
+    2.5D Corning® Gorilla® Glass 4</string>
+    <string name="content_specs_size" translatable="false">5.6 x 2.7 x 0.2 ~ 0.3 inches 143.8 x 69.5 x 7.3 ~ 8.5 mm</string>
+    <string name="content_specs_battery" translatable="false">2,770 mAh battery\n
+    Standby time (LTE): up to 19 days\n
+    Talk time (3g/WCDMA): up to 26 hours\n
+    Internet use time (Wi-Fi): up to 13 hours\n
+    Internet use time (LTE): up to 13 hours\n
+    Video playback: up to 13 hours\n
+    Audio playback (via headset): up to 110 hours\n
+    Fast charging: up to 7 hours of use from only 15 minutes of charging</string>
+    <string name="banner_pixel" translatable="false">banner pixel</string>
+    <string name="text_dummy_photos" translatable="false">12 Photos</string>
+    <string name="text_dummy_price" translatable="false">$500</string>
+    <string name="text_dummy_stock" translatable="false">Stock hanya 5 buah</string>
+    <string name="text_display" translatable="false">Display</string>
+    <string name="text_size" translatable="false">Size</string>
+    <string name="text_battery" translatable="false">Battery</string>
+    <string name="dijual_oleh" translatable="false">Dijual oleh</string>
+    <string name="text_dummy_name" translatable="false">Didik Maulana A</string>
+    <string name="text_dummy_buy" translatable="false">Beli</string>
+    <string name="specification" translatable="false">Specification</string>
+    <string name="menu_1" translatable="false">Menu 1</string>
+    <string name="menu_2" translatable="false">Menu 2</string>
+    <string name="this_is_activity" translatable="false">This is activity</string>
+    <string name="this_is_fragment" translatable="false">This is fragment</string>
+    <string name="search" translatable="false">Search</string>
+    <string name="title_activity_nav_drawer" translatable="false">NavDrawerActivity</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="navigation_drawer" translatable="false">Navigation Drawer</string>
+    <string name="title_activity_bottom_nav" translatable="false">BottomNavActivity</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="home_fragment" translatable="false">Home Fragment</string>
+    <string name="dashboard" translatable="false">Dashboard Fragment</string>
+    <string name="notification_fragment" translatable="false">Notification Fragment</string>
+
+    <!--localization-->
+    <string name="hello_world">Hello World %1$s, you have %2$d pokes from %3$s</string>
+    <string name="good_morning">Good Morning</string>
+    <plurals name="numberOfSongsAvailable">
+        <item quantity="one">%d song found.</item>
+        <item quantity="other">%d songs found.</item>
+    </plurals>
+    <string name="app_homeurl">
+       Visit us at <xliff:g id="application_homepage">https://dicoding.com</xliff:g>
+    </string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="output_text">Output Text</string>
+    <string name="change">Change</string>
+    <string name="move_detail_activity">Move Detail Activity</string>
 </resources>

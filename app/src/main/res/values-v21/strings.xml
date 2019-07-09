@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="output_text">Output Text</string>
+    <string name="change">Change</string>
+    <string name="move_detail_activity">Move Detail Activity</string>
+</resources>

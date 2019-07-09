@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.codingtive.dicodingmade">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -11,21 +13,35 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".listview.HeroActivity"/>
-        <activity android:name=".fragment.HomeActivity" />
-        <activity android:name=".intent.IntentActivity" />
-        <activity android:name=".intent.IntentResultActivity" />
-        <activity android:name=".intent.IntentDetailObjectActivity" />
-        <activity android:name=".intent.IntentDetailDataActivity" />
-        <activity android:name=".intent.IntentDetailActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".mvp.BarActivity">
+        <activity android:name=".espresso.UiTestDetailActivity"></activity>
+        <activity android:name=".espresso.UiTestActivity" />
+        <activity android:name=".localization.LocalizationActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".bottomnav.BottomNavActivity"
+            android:label="@string/title_activity_bottom_nav" />
+        <activity android:name=".actionbar.ActionBarActivity" />
+        <activity android:name=".customview.CustomViewActivity" />
+        <activity android:name=".actionbar.MenuActivity" />
+        <activity android:name=".mvp.BarActivity" />
+        <activity android:name=".views.ConstraintActivity" />
+        <activity android:name=".views.ViewActivity" />
+        <activity android:name=".listview.HeroActivity" />
+        <activity android:name=".fragment.HomeActivity" />
+        <activity android:name=".intent.IntentActivity" />
+        <activity android:name=".intent.IntentResultActivity" />
+        <activity android:name=".intent.IntentDetailObjectActivity" />
+        <activity android:name=".intent.IntentDetailDataActivity" />
+        <activity android:name=".intent.IntentDetailActivity" />
+        <activity
+            android:name=".drawer.NavDrawerActivity"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

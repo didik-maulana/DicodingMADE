@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.ViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/banner_pixel"
+                android:scaleType="fitXY"
+                android:src="@drawable/pixel_google" />
+
+            <TextView
+                style="@style/TextContent.Small.White"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="@dimen/activity_margin"
+                android:layout_marginBottom="@dimen/activity_margin"
+                android:background="#4D000000"
+                android:drawableStart="@drawable/ic_collections_white_18dp"
+                android:drawablePadding="4dp"
+                android:gravity="center_vertical"
+                android:padding="8dp"
+                android:text="@string/text_dummy_photos"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        </FrameLayout>
+
+        <TextView
+            style="@style/TextContent.Black"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:layout_marginBottom="8dp"
+            android:text="@string/text_dummy_price"
+            android:textSize="32sp" />
+
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:layout_marginBottom="@dimen/activity_margin"
+            android:text="@string/text_dummy_stock" />
+
+        <TextView
+            style="@style/TextContent"
+            android:layout_marginBottom="@dimen/activity_margin"
+            android:lineSpacingMultiplier="1"
+            android:text="@string/content_text"
+            android:textColor="@android:color/black" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_margin"
+            android:layout_marginEnd="@dimen/activity_margin"
+            android:layout_marginBottom="@dimen/activity_margin">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_margin">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/text_display" />
+
+                <TextView
+                    style="@style/TextSpec.Value"
+                    android:text="@string/content_specs_display" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_margin">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/text_size" />
+
+                <TextView
+                    style="@style/TextSpec.Value"
+                    android:text="@string/content_specs_size" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/activity_margin">
+
+                <TextView
+                    style="@style/TextSpec.Field"
+                    android:text="@string/text_battery" />
+
+                <TextView
+                    style="@style/TextSpec.Value"
+                    android:text="@string/content_specs_battery" />
+
+            </TableRow>
+
+            <TextView
+                style="@style/TextContent.Subtitle"
+                android:layout_marginBottom="@dimen/activity_margin"
+                android:text="@string/dijual_oleh" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_margin"
+                android:layout_marginEnd="@dimen/activity_margin"
+                android:layout_marginBottom="@dimen/activity_margin">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/activity_margin"
+                    android:src="@drawable/photo_2" />
+
+                <TextView
+                    style="@style/TextContent"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/profile_image"
+                    android:text="@string/text_dummy_name" />
+
+            </RelativeLayout>
+
+            <Button
+                style="@style/ButtonGeneral"
+                android:text="@string/text_dummy_buy" />
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
