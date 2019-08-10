@@ -8,6 +8,7 @@
     <uses-permission android:name="android.permission.READ_SMS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application
         android:allowBackup="true"
@@ -17,13 +18,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".readwrite.ReadWriteActivity">
+        <service
+            android:name=".mediaplayer.MediaService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity android:name=".mediaplayer.MediaPlayerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".soundpool.SoundPoolActivity" />
+        <activity android:name=".readwrite.ReadWriteActivity" />
         <activity android:name=".viewmodel.WeatherActivity" />
         <activity
             android:name=".task.TaskDetailActivity"

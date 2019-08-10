@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_margin"
+    tools:context=".mediaplayer.MediaPlayerActivity">
+
+    <Button
+        android:id="@+id/btn_play"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:text="@string/play"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_stop"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:text="@string/stop"
+        android:textColor="@color/colorPrimaryDark" />
+
+</LinearLayout>

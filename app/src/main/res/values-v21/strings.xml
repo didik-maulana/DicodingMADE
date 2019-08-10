@@ -29,4 +29,7 @@
     <string name="open_detail">Open Detail</string>
     <string name="message">Message</string>
     <string name="insert_city">Insert City</string>
+    <string name="test_sound_pool">Test Sound Pool</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
 </resources>
