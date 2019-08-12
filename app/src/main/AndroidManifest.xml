@@ -18,18 +18,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <service
-            android:name=".mediaplayer.MediaService"
-            android:enabled="true"
-            android:exported="true"></service>
-
-        <activity android:name=".mediaplayer.MediaPlayerActivity">
+        <activity android:name=".sharedpref.PrefActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".mediaplayer.MediaService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".mediaplayer.MediaPlayerActivity" />
         <activity android:name=".soundpool.SoundPoolActivity" />
         <activity android:name=".readwrite.ReadWriteActivity" />
         <activity android:name=".viewmodel.WeatherActivity" />

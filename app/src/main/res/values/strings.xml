@@ -163,4 +163,17 @@
     <string name="test_sound_pool">Test Sound Pool</string>
     <string name="play">Play</string>
     <string name="stop">Stop</string>
+    <string name="edit">Edit</string>
+    <string name="save">SAVE</string>
+    <string name="nothing" translatable="false">Tidak Ada</string>
+    <string name="name" translatable="false">Name</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="age" translatable="false">Age</string>
+    <string name="phone_number" translatable="false">PhoneNumber</string>
+    <string name="is_love" translatable="false">Suka Manchester United</string>
+    <string name="key_email" translatable="false">email</string>
+    <string name="key_age" translatable="false">age</string>
+    <string name="key_phone" translatable="false">phone</string>
+    <string name="key_love" translatable="false">love</string>
+    <string name="key_name" translatable="false">name</string>
 </resources>

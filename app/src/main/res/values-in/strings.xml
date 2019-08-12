@@ -48,4 +48,6 @@
     <string name="test_sound_pool">Test Sound Pool</string>
     <string name="play">Play</string>
     <string name="stop">Stop</string>
+    <string name="edit">Edit</string>
+    <string name="save">SAVE</string>
 </resources>
