@@ -18,13 +18,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
-        <activity android:name=".sqlite.NoteActivity">
+        <service
+            android:name=".preload.service.DataManagerService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity android:name=".preload.ui.StudentActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".sqlite.NoteActivity" />
         <activity android:name=".sqlite.NoteAddUpdateActivity" />
         <activity android:name=".sharedpref.PrefActivity" />
 
